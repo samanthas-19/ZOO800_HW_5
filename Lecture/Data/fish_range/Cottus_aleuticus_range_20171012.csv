@@ -1,0 +1,132 @@
+SPECIES_NAME,HUC8,NAME,ORIGIN,POINTDATA
+Cottus aleuticus,18010101,Smith,Native,TRUE
+Cottus aleuticus,18010102,Mad-Redwood,Native,TRUE
+Cottus aleuticus,18010105,Lower Eel,Native,TRUE
+Cottus aleuticus,18010106,South Fork Eel,Native,FALSE
+Cottus aleuticus,18010107,Mattole,Native,TRUE
+Cottus aleuticus,18010108,Big-Navarro-Garcia,Native,TRUE
+Cottus aleuticus,18010109,Gualala-Salmon,Native,TRUE
+Cottus aleuticus,18010110,Russian,Native,TRUE
+Cottus aleuticus,18010209,Lower Klamath,Native,TRUE
+Cottus aleuticus,18010211,Trinity,Native,TRUE
+Cottus aleuticus,18010212,South Fork Trinity,Native,FALSE
+Cottus aleuticus,18050002,San Pablo Bay,Native,FALSE
+Cottus aleuticus,18050003,Coyote,Native,FALSE
+Cottus aleuticus,18050004,San Francisco Bay,Native,FALSE
+Cottus aleuticus,18050005,Tomales-Drake Bays,Native,TRUE
+Cottus aleuticus,18050006,San Francisco Coastal South,Native,TRUE
+Cottus aleuticus,18060002,Pajaro,Native,TRUE
+Cottus aleuticus,18060005,Salinas,Native,FALSE
+Cottus aleuticus,18060006,Central Coastal,Native,TRUE
+Cottus aleuticus,18060008,Santa Maria,Native,FALSE
+Cottus aleuticus,18060009,San Antonio,Native,FALSE
+Cottus aleuticus,17100103,Upper Chehalis,Native,FALSE
+Cottus aleuticus,17100311,Illinois,Native,FALSE
+Cottus aleuticus,17100312,Chetco,Native,TRUE
+Cottus aleuticus,17100201,Necanicum,Native,TRUE
+Cottus aleuticus,17100202,Nehalem,Native,TRUE
+Cottus aleuticus,17100203,Wilson-Trusk-Nestuccu,Native,TRUE
+Cottus aleuticus,17100204,Siletz-Yaquina,Native,TRUE
+Cottus aleuticus,17100205,Alsea,Native,TRUE
+Cottus aleuticus,17100206,Siuslaw,Native,TRUE
+Cottus aleuticus,17100207,Siltcoos,Native,FALSE
+Cottus aleuticus,17100302,South Umpqua,Native,TRUE
+Cottus aleuticus,17100303,Umpqua,Native,TRUE
+Cottus aleuticus,17100304,Coos,Native,FALSE
+Cottus aleuticus,17100305,Coquille,Native,TRUE
+Cottus aleuticus,17100306,Sixes,Native,TRUE
+Cottus aleuticus,17100310,Lower Rogue,Native,TRUE
+Cottus aleuticus,17100101,Hoh-Quillayute,Native,TRUE
+Cottus aleuticus,17100102,Queets-Quinault,Native,TRUE
+Cottus aleuticus,17100104,Lower Chehalis,Native,TRUE
+Cottus aleuticus,17100105,Grays Harbor,Native,TRUE
+Cottus aleuticus,17100106,Willapa Bay,Native,TRUE
+Cottus aleuticus,17110004,Nooksack,Native,TRUE
+Cottus aleuticus,17110006,Sauk,Native,TRUE
+Cottus aleuticus,17110007,Lower Skagit,Native,FALSE
+Cottus aleuticus,17110008,Stillaguamish,Native,TRUE
+Cottus aleuticus,17110010,Snoqualmie,Native,TRUE
+Cottus aleuticus,17110011,Snohomish,Native,TRUE
+Cottus aleuticus,17110012,Lake Washington,Native,TRUE
+Cottus aleuticus,17110013,Duwamish,Native,TRUE
+Cottus aleuticus,17110014,Puyallup,Native,FALSE
+Cottus aleuticus,17110015,Nisqually,Native,FALSE
+Cottus aleuticus,17110016,Deschutes,Native,FALSE
+Cottus aleuticus,17110017,Skokomish,Native,FALSE
+Cottus aleuticus,17110018,Hood Canal,Native,TRUE
+Cottus aleuticus,17110019,Puget Sound,Native,TRUE
+Cottus aleuticus,17110002,Strait of Georgia,Native,TRUE
+Cottus aleuticus,17110003,San Juan Islands,Native,FALSE
+Cottus aleuticus,17110020,Dungeness-Elwha,Native,FALSE
+Cottus aleuticus,17110021,Crescent-Hoko,Native,TRUE
+Cottus aleuticus,17090001,Middle Fork Willamette,Native,TRUE
+Cottus aleuticus,17090002,Coast Fork Willamette,Native,FALSE
+Cottus aleuticus,17090003,Upper Willamette,Native,TRUE
+Cottus aleuticus,17090007,Middle Willamette,Native,FALSE
+Cottus aleuticus,17090008,Yamhill,Native,FALSE
+Cottus aleuticus,17090010,Tualatin,Native,FALSE
+Cottus aleuticus,17070105,Middle Columbia-Hood,Native,TRUE
+Cottus aleuticus,17080001,Lower Columbia-Sandy,Native,TRUE
+Cottus aleuticus,17080003,Lower Columbia-Clatskanie,Native,TRUE
+Cottus aleuticus,17080006,Lower Columbia,Native,TRUE
+Cottus aleuticus,17080002,Lewis,Native,TRUE
+Cottus aleuticus,17080004,Upper Cowlitz,Native,TRUE
+Cottus aleuticus,17080005,Lower Cowlitz,Native,TRUE
+Cottus aleuticus,17090012,Lower Willamette,Native,FALSE
+Cottus aleuticus,19030101,Cold Bay,Native,TRUE
+Cottus aleuticus,19010204,Admiralty Island,Native,TRUE
+Cottus aleuticus,19010403,Tatshenshini River,Native,FALSE
+Cottus aleuticus,19020102,Middle Copper River,Native,FALSE
+Cottus aleuticus,19010107,Outlet Portland Canal,Native,FALSE
+Cottus aleuticus,19010102,Ketchikan,Native,TRUE
+Cottus aleuticus,19010103,Prince of Wales,Native,FALSE
+Cottus aleuticus,19010209,Etolin-Zarembo-Wrangell Islands,Native,FALSE
+Cottus aleuticus,19030203,Egegik Bay,Native,FALSE
+Cottus aleuticus,19030205,Lake Clark,Native,FALSE
+Cottus aleuticus,19020203,Prince William Sound,Native,TRUE
+Cottus aleuticus,19050304,Lower Kobuk River,Native,FALSE
+Cottus aleuticus,19030201,Port Heiden,Native,FALSE
+Cottus aleuticus,19010211,Chichagof Island,Native,FALSE
+Cottus aleuticus,19030304,Wood River,Native,FALSE
+Cottus aleuticus,19030206,Lake Iliamna,Native,TRUE
+Cottus aleuticus,19020202,Resurrection River-Frontal Resurrection Bay,Native,TRUE
+Cottus aleuticus,19020505,Lower Susitna River,Native,FALSE
+Cottus aleuticus,19020701,Kodiak-Afognak Islands,Native,TRUE
+Cottus aleuticus,19010406,Palma Bay,Native,TRUE
+Cottus aleuticus,19020301,Lower Kenai Peninsula,Native,TRUE
+Cottus aleuticus,19020201,Eastern Prince William Sound,Native,TRUE
+Cottus aleuticus,19020601,Redoubt-Trading Bays,Native,FALSE
+Cottus aleuticus,19020401,Anchorage,Native,TRUE
+Cottus aleuticus,19030103,Western Aleutian Islands,Native,TRUE
+Cottus aleuticus,19030102,Fox Islands,Native,TRUE
+Cottus aleuticus,19010205,Lower Iskut,Native,FALSE
+Cottus aleuticus,19010208,Thomas Bay,Native,FALSE
+Cottus aleuticus,19010304,Taku River,Native,TRUE
+Cottus aleuticus,19010302,Glacier Bay,Native,FALSE
+Cottus aleuticus,19010303,Chilkat-Skagway Rivers,Native,FALSE
+Cottus aleuticus,19020602,Tuxedni-Kamishak Bays,Native,TRUE
+Cottus aleuticus,19020104,Lower Copper River,Native,TRUE
+Cottus aleuticus,19010104,Bradfield Canal,Native,FALSE
+Cottus aleuticus,19010105,Burroughs Bay,Native,TRUE
+Cottus aleuticus,19010207,Stikine River,Native,TRUE
+Cottus aleuticus,19030202,Ugashik Bay,Native,FALSE
+Cottus aleuticus,19030306,Nushagak Bay,Native,FALSE
+Cottus aleuticus,19010404,Alsek River,Native,FALSE
+Cottus aleuticus,19020103,Chitina River,Native,FALSE
+Cottus aleuticus,19010106,Headwaters Portland Canal,Native,FALSE
+Cottus aleuticus,19010212,Baranof Island,Native,TRUE
+Cottus aleuticus,19010206,Holkham Bay,Native,FALSE
+Cottus aleuticus,19020702,Shelikof Strait,Native,TRUE
+Cottus aleuticus,19010301,Lynn Canal,Native,TRUE
+Cottus aleuticus,19030303,Lower Nushagak River,Native,FALSE
+Cottus aleuticus,19030305,Togiak,Native,FALSE
+Cottus aleuticus,19020503,Talkeetna River,Native,TRUE
+Cottus aleuticus,19050104,Nome,Native,TRUE
+Cottus aleuticus,19010210,Kuiu-Kupreanof-Mitkof Islands,Native,FALSE
+Cottus aleuticus,19030204,Naknek,Native,TRUE
+Cottus aleuticus,19010402,Bering Glacier,Native,FALSE
+Cottus aleuticus,19010405,Yakutat Bay-Gulf of Alaska,Native,TRUE
+Cottus aleuticus,19020302,Upper Kenai Peninsula,Native,TRUE
+Cottus aleuticus,19020402,Matanuska,Native,FALSE
+Cottus aleuticus,19050301,Selawik Lake,Native,TRUE
+Cottus aleuticus,19050403,Lower Noatak River,Native,FALSE
