@@ -2,15 +2,15 @@
 
 library(parallel)                          # built-in; no install needed
 
-fish <- read.csv("Data/fish_bootstrap_parallel_computing.csv")     # adjust path if needed
+fish <- read.csv("HW/Data/fish_bootstrap_parallel_computing.csv")   
 species <- unique(fish$Species)            # list of species we'll loop over
 
 
 # --- A tiny bootstrap function (no pipes, base R only) --------------------
 
-boot_mean <- function(species_name, n_boot = 500, sample_size = 100) {
-  # Pull the Length_cm vector for just this species
-  x <- fish$Length_cm[fish$Species == species_name]
+boot_mean <- function(species_name, n_boot = 10000, sample_size = 200) {
+  # Pull the weight vector for just this species
+  x <- fish$Weight_g[fish$Species == species_name]
   
   # Do n_boot resamples WITH replacement; compute the mean each time
   # replicate(...) returns a numeric vector of bootstrap means
@@ -27,8 +27,8 @@ t_serial <- system.time({                   # time the whole serial run
   res_serial <- lapply(                     # loop over species in the main R process
     species,                                # input: vector of species names
     boot_mean,                              # function to apply
-    n_boot = 500,                           # number of bootstrap resamples per species
-    sample_size = 100                       # bootstrap sample size
+    n_boot = 10000,                           # number of bootstrap resamples per species
+    sample_size = 200                       # bootstrap sample size
   )
 })
 
@@ -50,8 +50,8 @@ t_parallel <- system.time({                 # time the parallel run
     cl,                                     # the cluster
     species,                                # each worker gets one species (or more)
     boot_mean,                              # function to run
-    n_boot = 500,                           # same bootstrap settings as serial
-    sample_size = 100
+    n_boot = 10000,                           # same bootstrap settings as serial
+    sample_size = 200
   )
 })
 
