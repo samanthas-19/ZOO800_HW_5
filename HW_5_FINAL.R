@@ -42,12 +42,43 @@ file.info('HW/Output/fish.rds')$size
 
 ##----------------------Problem 3-------------------------##
 
+"Filter & Select
+- Keep only Walleye, Yellow Perch, and Smallmouth Bass in Lake Erie and Michigan
+- Keep columns: Species, Lake, Year, Length_cm, Weight_g"
 
+fish_output <- fish_csv %>%   #using pipe to link to objective 1
+  filter(Species== "Walleye"| Species== "Yellow Perch" | Species== "Smallmouth Bass") %>%   #selecting species
+  select(Species, Lake, Year, Length_cm, Weight_g)   #then from chosen species, selecting the columns for each of them
 
+"Create Variables
+- Add Length_mm = Length_cm * 10.
+- Create Length_group using bins: ≤200, 200–400, 400–600, >600 mm (hint: mutate() +
+cut(...)) and Count how many fish fall into each Length_group by species"
 
+fish_filtered <- fish_csv %>%   #using the pipe to again refer to the csv file from obj 1
+  mutate(Length_mm = Length_cm * 10,   #using mutate to create a new column with converted length
+         Length_group= cut(x= Length_mm, breaks = c(0, 200, 400, 600, 1000), include.lowest = TRUE))
+#then grouping the new column with the cut function and breaks. including value higher than data to constrain the largest break
+count_fish <- fish_filtered %>%   #using pipe to create count_fish from fish_filtered created above
+  group_by(Species) %>%   #using group_by for fish_filtered to get counts of each species
+  count(Length_group)   #counting the length-group for each species created above
 
+"Summarise
+- For each Species × Year, calculate mean weight, median weight and sample size."
+fish_output <- fish_filtered %>%   #using pipe to act on the fish_filtered data from earlier
+  group_by(Species, Year) %>%   #this time adding Year to group_by fn and will use that to summarize below
+  summarise(mean_weight= mean(Weight_g),   #using mean fn for appropriate column and assigning to mean_weight
+            median_weight= median(Weight_g),   #doing the same for median
+            n= n())   #this n function determines sample size.
 
+#plot mean weight for each species over time
 
+#using ggplot. aes are highest level up and colour = species + geom_line() means each species will be plotted as a line with its own color
+ggplot(data= fish_output, mapping= aes(x= Year, y= mean_weight, colour = Species )) +
+  geom_line()
+
+# save the new data to an output folder
+write.csv(fish_output, 'HW/Output/fish_output.csv', row.names = FALSE)
 
 
 ##----------------------Problem 4-------------------------##

@@ -1,0 +1,55 @@
+"Species","Year","mean_weight","median_weight","n"
+"Lake Trout",2015,1284.22222222222,1300,9
+"Lake Trout",2016,1243.25,1265.5,4
+"Lake Trout",2017,1056.25,1192.5,8
+"Lake Trout",2018,1060,925,7
+"Lake Trout",2019,1046.33333333333,925,6
+"Lake Trout",2020,1325,1417.5,8
+"Lake Trout",2021,762,762,1
+"Lake Trout",2022,760.666666666667,906,3
+"Lake Trout",2023,1101,971,6
+"Northern Pike",2015,1102.16666666667,1196,6
+"Northern Pike",2016,841.333333333333,1087,3
+"Northern Pike",2017,839.571428571429,722,7
+"Northern Pike",2018,1101.83333333333,1059.5,6
+"Northern Pike",2019,1149.33333333333,1099.5,6
+"Northern Pike",2020,908.5,959.5,6
+"Northern Pike",2021,804.6,808,5
+"Northern Pike",2022,751.8,771,5
+"Northern Pike",2023,1150.5,1150.5,2
+"Smallmouth Bass",2015,995,1053.5,6
+"Smallmouth Bass",2016,1188.75,1213.5,4
+"Smallmouth Bass",2017,773.333333333333,561,3
+"Smallmouth Bass",2018,1146,1146,2
+"Smallmouth Bass",2019,1189.75,1331.5,4
+"Smallmouth Bass",2020,1498.5,1518.5,4
+"Smallmouth Bass",2021,1384,1431,3
+"Smallmouth Bass",2022,968.8,924,5
+"Smallmouth Bass",2023,1350.75,1252.5,8
+"Walleye",2015,1035,1273,7
+"Walleye",2016,731,660,6
+"Walleye",2017,931.875,924.5,8
+"Walleye",2018,1375,1375,1
+"Walleye",2019,1134.9,1275.5,10
+"Walleye",2020,966.666666666667,977,9
+"Walleye",2021,1257.8,1214,5
+"Walleye",2022,1300.33333333333,1149.5,6
+"Walleye",2023,1177.8,965,5
+"Whitefish",2015,869.8,836,10
+"Whitefish",2016,1023.375,973.5,8
+"Whitefish",2017,952.8,807,5
+"Whitefish",2018,1214,1176,9
+"Whitefish",2019,811.857142857143,832,7
+"Whitefish",2020,1240.125,1219,8
+"Whitefish",2021,1002.83333333333,1089.5,6
+"Whitefish",2022,885.8,898,5
+"Whitefish",2023,1201.16666666667,1024,6
+"Yellow Perch",2015,1142,1142,2
+"Yellow Perch",2016,984.4,707,5
+"Yellow Perch",2017,1104.2,993,5
+"Yellow Perch",2018,1075,977,4
+"Yellow Perch",2019,1056.8,988,5
+"Yellow Perch",2020,917.666666666667,1031,9
+"Yellow Perch",2021,883,685,3
+"Yellow Perch",2022,674.166666666667,496.5,6
+"Yellow Perch",2023,835.666666666667,824,3
